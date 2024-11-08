@@ -1,0 +1,70 @@
+body {
+    background-image: url('file/bg.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background so it doesn't scroll with the page */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 100vh; /* Full viewport height */
+    color: white; /* Text color for contrast against background */
+    overflow: hidden;  /* Disables scrolling */
+}
+
+.fa-sun {
+    color: rgb(245, 245, 124); /* Set icon color to yellow */
+}
+
+.fa-cloud{
+    color: rgb(120, 120, 189);
+}
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.6); /* Light background color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    width: 80%; /* Set the width to 80% of the container */
+    max-width: 600px; /* Maximum width */
+    height: 400px; /* Fixed height */
+    margin: auto; /* Center the card horizontally */
+    
+}
+
+.jumbotron .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 100%; /* Ensure the card-body takes the full height */
+}
+
+
+/* Center the text */
+.center-text {
+    text-align: center;
+}
+
+.fa-snowflake {
+    color: rgb(201, 230, 250);
+}
+
+.fa-cloud-showers-heavy {
+    color: rgb(46, 46, 45);
+}
+
+.fa-bolt {
+    color: rgb(255, 255, 0);
+}
+
+.fa-cloud-drizzle
+{
+    color: rgb(104, 93, 77);
+}
+
+.fa-smog
+{
+    color: rgb(127, 134, 134);
+}
+
+.fa-cloud-sun
+{
+    color: rgb(117, 79, 21);
+}
